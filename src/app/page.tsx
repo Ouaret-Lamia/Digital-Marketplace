@@ -34,7 +34,7 @@ export default function Home() {
             <span className="text-teal-400">digital assets</span>.
           </h1>
           <p className="mt-6 text-lg max-w-prose text-muted-foreground">
-            Welcome to Orily. Every asset on our platform is varified by our
+            Welcome to Crocsy. Every asset on our platform is varified by our
             team to ensure our highest quality standards
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-6">

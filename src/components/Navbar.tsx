@@ -18,7 +18,7 @@ const Navbar = () => {
 
               <div className="ml-4 flex lg:ml-0">
                 <Link href="/">
-                  <Icons.logo className="w-40" />
+                  <Icons.logo className="h-13" />
                 </Link>
               </div>
 
