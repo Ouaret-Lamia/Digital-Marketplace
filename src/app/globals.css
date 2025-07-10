@@ -53,8 +53,8 @@
   --popover-foreground: oklch(0.15 0.005 190);
   --primary: oklch(0.747 0.207 182.49);            /* teal-400 */
   --primary-foreground: oklch(0.99 0.01 182.49);   /* near-white */
-  --secondary: oklch(0.9 0.03 182.49);             /* very light teal tint */
-  --secondary-foreground: oklch(0.2 0.01 182.49);  /* darker teal */
+  --secondary: oklch(0.967 0.001 286.375);
+  --secondary-foreground: oklch(0.21 0.006 285.885);
   --muted: oklch(0.967 0.001 286.375);
   --muted-foreground: oklch(0.552 0.016 285.938);
   --accent: oklch(0.967 0.001 286.375);

@@ -4,18 +4,9 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 
 import { Inter } from 'next/font/google';
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ['latin'] });
-
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -33,6 +24,7 @@ export default function RootLayout({
         className={cn("relative h-full font-sans antialiased", inter.className)}
       >
         <main className="relative flex flex-col min-h-screen">
+          <Navbar />
           <div className="flex-grow flex-1" >{children}</div>
         </main>
       </body>
